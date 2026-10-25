@@ -1,0 +1,16 @@
+# Data (re-download with: python src/download_data.py)
+data/raw/
+data/processed/
+*.parquet
+*.part
+
+# Python / Jupyter
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
